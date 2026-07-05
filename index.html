@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 Course Home Page | Ethan Shirley</title>
+    <meta name="description" content="WDD 231 course home page. The page includes course information, student profile, navigation, and JavaScript content.">
+    <meta name="author" content="Ethan Shirley">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site logo" width="50" height="50">
+        <span>Ethan Shirley</span>
+        <button id="menu" aria-label="Open navigation menu" aria-expanded="false">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul id="nav-menu">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="final/index.html">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="home-grid">
+            <section class="card">
+                <h2>About Me</h2>
+                <p>
+                    My name is Ethan Shirley and I'm studying to earn my degree in Software Development. In this course, I will be focusing on learning about Web Frontend Development. I'm eager to continue learning to create responsive webpages for a phenomenal user experience. I am happily married to my wife of 4 years, and together we have a child. I enjoy opportunities to automate tasks at work and will often use a combination of HTML, CSS, and JavaScript to accomplish it.
+                </p>
+            </section>
+
+            <section class="card student-photo">
+                <h2>Student Photo</h2>
+                <img src="images/ethan-portrait.webp" alt="Student profile" width="300" height="300">
+            </section>
+        </div>
+
+        <section class="card courses">
+            <h2>Web Certificate Courses</h2>
+
+            <div class="course-buttons">
+                <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All</button>
+                <button class="filter-button" type="button" data-filter="CSE" aria-pressed="false">CSE</button>
+                <button class="filter-button" type="button" data-filter="WDD" aria-pressed="false">WDD</button>
+            </div>
+
+            <div id="course-cards" class="course-list"></div>
+
+            <p class="credit-total">
+                The total credits for courses listed above is <span id="total-credits">0</span>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/upl8-dev/wdd231" target="_blank" rel="noopener" aria-label="GitHub profile">
+                <img src="images/github.svg" alt="" width="44" height="44">
+            </a>
+            <a href="https://www.linkedin.com/in/ethan-shirley-037697162" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+                <img src="images/linkedin.svg" alt="" width="44" height="44">
+            </a>
+        </div>
+
+        <p>&copy;<span id="currentyear"></span> • Ethan Shirley • California, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
