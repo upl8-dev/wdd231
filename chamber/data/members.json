@@ -4,8 +4,8 @@
         "tagline": "Fresh bread and pastries daily",
         "address": "421 Pollasky Avenue, Clovis, CA 93612",
         "phone": "(559) 555-1122",
-        "email": "info@oldtownbakery.com",
-        "website": "https://www.oldtownbakery.com",
+        "email": "info@example.com",
+        "website": "https://example.com/old-town-bakery",
         "image": "bakery.webp",
         "membership": 2
     },
@@ -14,8 +14,8 @@
         "tagline": "Tools and supplies for every project",
         "address": "890 Shaw Avenue, Clovis, CA 93612",
         "phone": "(559) 555-3344",
-        "email": "support@clovishardware.com",
-        "website": "https://www.clovishardware.com",
+        "email": "support@example.com",
+        "website": "https://example.com/clovis-hardware-supply",
         "image": "hardware.webp",
         "membership": 3
     },
@@ -24,8 +24,8 @@
         "tagline": "Strength, wellness, and community",
         "address": "1355 Herndon Avenue, Clovis, CA 93611",
         "phone": "(559) 555-7788",
-        "email": "hello@sierrafitness.com",
-        "website": "https://www.sierrafitness.com",
+        "email": "hello@example.com",
+        "website": "https://example.com/sierra-fitness-studio",
         "image": "fitness.webp",
         "membership": 1
     },
@@ -34,8 +34,8 @@
         "tagline": "Local coffee and fresh meals",
         "address": "245 Fifth Street, Clovis, CA 93612",
         "phone": "(559) 555-9012",
-        "email": "contact@copperkettlecafe.com",
-        "website": "https://www.copperkettlecafe.com",
+        "email": "contact@example.com",
+        "website": "https://example.com/copper-kettle-cafe",
         "image": "cafe.webp",
         "membership": 2
     },
@@ -44,8 +44,8 @@
         "tagline": "Flowers for every occasion",
         "address": "710 Clovis Avenue, Clovis, CA 93612",
         "phone": "(559) 555-6677",
-        "email": "orders@bloomandvine.com",
-        "website": "https://www.bloomandvine.com",
+        "email": "orders@example.com",
+        "website": "https://example.com/bloom-and-vine-florist",
         "image": "florist.webp",
         "membership": 1
     },
@@ -54,8 +54,8 @@
         "tagline": "Helping families find home",
         "address": "1520 Bullard Avenue, Clovis, CA 93611",
         "phone": "(559) 555-8820",
-        "email": "team@valleyrootsrealty.com",
-        "website": "https://www.valleyrootsrealty.com",
+        "email": "team@example.com",
+        "website": "https://example.com/valley-roots-realty",
         "image": "realty.webp",
         "membership": 3
     },
@@ -64,8 +64,8 @@
         "tagline": "Friendly dental care for all ages",
         "address": "980 Sunnyside Avenue, Clovis, CA 93611",
         "phone": "(559) 555-4545",
-        "email": "care@clovisfamilydental.com",
-        "website": "https://www.clovisfamilydental.com",
+        "email": "care@example.com",
+        "website": "https://example.com/clovis-family-dental",
         "image": "dental.webp",
         "membership": 2
     }
