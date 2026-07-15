@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory | Clovis Chamber of Commerce</title>
+    <meta name="description" content="Directory of local businesses and chamber members in Clovis, California.">
+    <meta name="author" content="Ethan Shirley">
+
+    <meta property="og:title" content="Clovis Chamber of Commerce Directory">
+    <meta property="og:description" content="Find local businesses and chamber members in Clovis, California.">
+    <meta property="og:image" content="https://upl8-dev.github.io/wdd231/chamber/images/logo.svg">
+    <meta property="og:url" content="https://upl8-dev.github.io/wdd231/chamber/directory.html">
+
+    <link rel="icon" href="images/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Clovis Chamber of Commerce logo" width="50" height="50">
+        <span>Clovis Chamber of Commerce</span>
+        <button id="menu" aria-label="Open navigation menu" aria-expanded="false">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Directory</h1>
+
+        <div class="view-buttons">
+            <button id="grid-view" class="view-button active" type="button">Grid</button>
+            <button id="list-view" class="view-button" type="button">List</button>
+        </div>
+
+        <section id="members" class="member-grid" aria-label="Business directory">
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <p><strong>Clovis Chamber of Commerce</strong></p>
+                <p>325 Pollasky Avenue</p>
+                <p>Clovis, CA 93612</p>
+                <p>info@clovischamber.org</p>
+                <p>(559) 555-2300</p>
+            </div>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="GitHub profile">
+                <img src="images/facebook.svg" alt="" width="44" height="44">
+            </a>
+            <a href="https://www.linkedin.com/in/ethan-shirley-037697162" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+                <img src="images/linkedin.svg" alt="" width="44" height="44">
+            </a>
+        </div>
+
+            <div>
+                <p>WDD 231</p>
+                <p>Ethan Shirley</p>
+                <p>&copy;<span id="currentyear"></span> Clovis Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

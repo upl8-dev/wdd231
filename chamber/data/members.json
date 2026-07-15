@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Old Town Bakery",
+        "tagline": "Fresh bread and pastries daily",
+        "address": "421 Pollasky Avenue, Clovis, CA 93612",
+        "phone": "(559) 555-1122",
+        "email": "info@oldtownbakery.com",
+        "website": "https://www.oldtownbakery.com",
+        "image": "bakery.webp",
+        "membership": 2
+    },
+    {
+        "name": "Clovis Hardware Supply",
+        "tagline": "Tools and supplies for every project",
+        "address": "890 Shaw Avenue, Clovis, CA 93612",
+        "phone": "(559) 555-3344",
+        "email": "support@clovishardware.com",
+        "website": "https://www.clovishardware.com",
+        "image": "hardware.webp",
+        "membership": 3
+    },
+    {
+        "name": "Sierra Fitness Studio",
+        "tagline": "Strength, wellness, and community",
+        "address": "1355 Herndon Avenue, Clovis, CA 93611",
+        "phone": "(559) 555-7788",
+        "email": "hello@sierrafitness.com",
+        "website": "https://www.sierrafitness.com",
+        "image": "fitness.webp",
+        "membership": 1
+    },
+    {
+        "name": "Copper Kettle Cafe",
+        "tagline": "Local coffee and fresh meals",
+        "address": "245 Fifth Street, Clovis, CA 93612",
+        "phone": "(559) 555-9012",
+        "email": "contact@copperkettlecafe.com",
+        "website": "https://www.copperkettlecafe.com",
+        "image": "cafe.webp",
+        "membership": 2
+    },
+    {
+        "name": "Bloom & Vine Florist",
+        "tagline": "Flowers for every occasion",
+        "address": "710 Clovis Avenue, Clovis, CA 93612",
+        "phone": "(559) 555-6677",
+        "email": "orders@bloomandvine.com",
+        "website": "https://www.bloomandvine.com",
+        "image": "florist.webp",
+        "membership": 1
+    },
+    {
+        "name": "Valley Roots Realty",
+        "tagline": "Helping families find home",
+        "address": "1520 Bullard Avenue, Clovis, CA 93611",
+        "phone": "(559) 555-8820",
+        "email": "team@valleyrootsrealty.com",
+        "website": "https://www.valleyrootsrealty.com",
+        "image": "realty.webp",
+        "membership": 3
+    },
+    {
+        "name": "Clovis Family Dental",
+        "tagline": "Friendly dental care for all ages",
+        "address": "980 Sunnyside Avenue, Clovis, CA 93611",
+        "phone": "(559) 555-4545",
+        "email": "care@clovisfamilydental.com",
+        "website": "https://www.clovisfamilydental.com",
+        "image": "dental.webp",
+        "membership": 2
+    }
+]

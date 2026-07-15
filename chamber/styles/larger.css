@@ -1,0 +1,53 @@
+@media screen and (min-width: 700px) {
+    header {
+        padding: 1rem 2rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    #nav-menu li {
+        flex: 1 1 auto;
+        max-width: 220px;
+    }
+
+    #nav-menu a {
+        text-align: center;
+        border-top: none;
+        border-left: 1px solid #374151;
+    }
+
+    .member-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .member-list {
+        grid-template-columns: 1fr;
+    }
+
+    .member-list .member-card {
+        max-width: none;
+    }
+
+    .member-list .member-body {
+        grid-template-columns: 120px 1fr;
+    }
+
+    .footer-grid {
+        max-width: 1100px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        text-align: left;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
